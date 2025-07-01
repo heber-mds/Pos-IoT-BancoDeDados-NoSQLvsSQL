@@ -79,7 +79,6 @@ Ou rode a seguinte consulta no painel aggregation do Compass:
   }
 ]
 ```
----
 Resultado esperado:
 ```
 {
