@@ -37,4 +37,16 @@ Este projeto tem como objetivo:
 
 ## 📊 Estrutura do Projeto
 
+## 📚 Conclusão Esperada
 
+Através dessa comparação prática, espera-se:
+
+- Evidenciar **vantagens e limitações** de cada abordagem;
+- Refletir sobre a **adequação de cada tecnologia** a diferentes cenários de uso;
+- Demonstrar como bancos relacionais e não relacionais lidam com **grandes volumes de dados reais**.
+
+## 📌 Créditos
+
+Dados disponibilizados publicamente por [Brasil.IO](https://brasil.io)
+
+---
