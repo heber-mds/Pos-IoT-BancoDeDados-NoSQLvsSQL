@@ -81,6 +81,7 @@ Ou rode a seguinte consulta no painel aggregation do Compass:
 ```
 ---
 Resultado esperado:
+```
 {
   "city": "Foz do Iguaçu",
   "date": {
@@ -89,7 +90,7 @@ Resultado esperado:
   "last_available_confirmed": 45273,
   "state": "PR"
 }
-
+```
 ---
 
 ## 🐘 Parte 2 — Importar o Dataset no PostgreSQL (SQL)
