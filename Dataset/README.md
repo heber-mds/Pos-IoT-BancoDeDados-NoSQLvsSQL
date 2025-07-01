@@ -1,7 +1,7 @@
 
 # 💾  Comparativo entre Banco de Dados SQL e NoSQL
 
-Este repositório apresenta um passo a passo didático de como importar o dataset `caso_full` de COVID-19 do [Brasil.IO](https://brasil.io/dataset/covid19/caso_full/) em dois tipos de bancos de dados locais:
+O Dataset utilizado é muito grande para ser hospedado no Github, desta forma este repositório apresenta um passo a passo didático de como importar o dataset `caso_full` de COVID-19 do [Brasil.IO](https://brasil.io/dataset/covid19/caso_full/) em dois tipos de bancos de dados locais:
 
 - 📦 **MongoDB** (NoSQL), usando **MongoDB Compass**
 - 🐘 **PostgreSQL** (SQL), usando **PGAdmin 4**
