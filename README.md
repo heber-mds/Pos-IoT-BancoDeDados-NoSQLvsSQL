@@ -45,8 +45,18 @@ Através dessa comparação prática, espera-se:
 - Refletir sobre a **adequação de cada tecnologia** a diferentes cenários de uso;
 - Demonstrar como bancos relacionais e não relacionais lidam com **grandes volumes de dados reais**.
 
-## 📌 Créditos
+## 🧾 Créditos e Referências
 
-Dados disponibilizados publicamente por [Brasil.IO](https://brasil.io)
+- Dados públicos: [Brasil.IO – Datasets – COVID-19](https://brasil.io/dataset/covid19/caso/)
+- Artigos e Documentação:
+  - [SQL vs. NoSQL: Diferenças, vantagens e casos de uso | Astera](https://www.astera.com/type/blog/sql-vs-nosql/)
+  - [How to Use PostgreSQL in Python](https://www.psycopg.org/)
+  - [Bancos De Dados NoSQL Versus SQL | MongoDB](https://www.mongodb.com/pt-br/nosql-explained/nosql-vs-sql)
+  - [PostgreSQL: The world's most advanced open source database](https://www.postgresql.org/)
+  - [Download MongoDB Community Server | MongoDB](https://www.mongodb.com/try/download/community)
+  - [Instale o MongoDB Community Edition no Windows – MongoDB Docs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/)
+  - [O que é um banco de dados? – AWS](https://aws.amazon.com/pt/what-is/database/)
+  - [What Is a Database? | Oracle](https://www.oracle.com/database/what-is-database/)
+  - [SQL vs. NoSQL Databases: What's the Difference? | IBM](https://www.ibm.com/cloud/blog/sql-vs-nosql)
 
 ---
