@@ -41,7 +41,7 @@ Este projeto tem como objetivo:
 ```text
 Pos-IoT-BancoDeDados-NoSQLvsSQL/
 ├── Apresentação/           → Slides da apresentação com conceitos, diferenças e exemplos comparativos
-├── Dataset/                → Arquivos CSV extraídos do projeto Brasil.IO contendo dados públicos da COVID-19
+├── Dataset/                → Descritivo no README.md de como estruturar os Bancos de Dados com o documento .csv extraído do projeto Brasil.IO contendo dados públicos da COVID-19
 ├── Exemplo_Python/         → Códigos de exemplo em Python demonstrando operações de leitura e consulta:
 │                              • MongoDB (NoSQL)
 │                              • PostgreSQL (SQL relacional)
