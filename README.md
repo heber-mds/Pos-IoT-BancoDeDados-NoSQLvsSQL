@@ -38,6 +38,18 @@ Este projeto tem como objetivo:
 - **Jupyter Notebook** para visualização dos resultados
 
 ## 📊 Estrutura do Projeto
+Pos-IoT-BancoDeDados-NoSQLvsSQL/
+│
+├── Apresentação/           → Slides da apresentação comparando bancos SQL e NoSQL
+│
+├── Dataset/                → Descritivo README.md para estruturar os bancos de dados foco do estudo, com dados reais da COVID-19 (extraídos do Brasil.IO)
+│
+├── Exemplo_Python/         → Códigos-fonte em Python para manipulação e consulta de dados usando:
+│                              • MongoDB (NoSQL)
+│                              • PostgreSQL (Relacional)
+│
+├── README.md               → Descrição geral do projeto, objetivos e instruções de uso
+└── requirements.txt        → Lista de dependências Python necessárias para executar os exemplos
 
 ## 📚 Conclusão Esperada
 
