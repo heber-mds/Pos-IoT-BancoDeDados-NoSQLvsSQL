@@ -40,16 +40,17 @@ Este projeto tem como objetivo:
 ## 📊 Estrutura do Projeto
 Pos-IoT-BancoDeDados-NoSQLvsSQL/
 │
-├── Apresentação/           → Slides da apresentação comparando bancos SQL e NoSQL
+├── Apresentação/           → Slides da apresentação com conceitos, diferenças e exemplos comparativos
 │
-├── Dataset/                → Descritivo README.md para estruturar os bancos de dados foco do estudo, com dados reais da COVID-19 (extraídos do Brasil.IO)
+├── Dataset/                → Arquivos CSV extraídos do projeto Brasil.IO contendo dados públicos da COVID-19
 │
-├── Exemplo_Python/         → Códigos-fonte em Python para manipulação e consulta de dados usando:
+├── Exemplo_Python/         → Códigos de exemplo em Python demonstrando operações de leitura e consulta:
 │                              • MongoDB (NoSQL)
-│                              • PostgreSQL (Relacional)
+│                              • PostgreSQL (SQL relacional)
 │
-├── README.md               → Descrição geral do projeto, objetivos e instruções de uso
-└── requirements.txt        → Lista de dependências Python necessárias para executar os exemplos
+├── README.md               → Documento de introdução e documentação do projeto
+└── requirements.txt        → Arquivo de dependências para instalação das bibliotecas Python necessárias
+
 
 ## 📚 Conclusão Esperada
 
