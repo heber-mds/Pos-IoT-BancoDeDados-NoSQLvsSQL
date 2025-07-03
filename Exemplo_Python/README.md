@@ -22,6 +22,10 @@ pip install -r requirements.txt
 
 ## 🔌 Configuração dos bancos
 
+Antes de seguir com o uso dos exemplos veja o  [README.md](https://github.com/heber-mds/Pos-IoT-BancoDeDados-NoSQLvsSQL/blob/main/Dataset/README.md) presente na pasta Dataset.
+
+
+
 ### MongoDB
 
 - A base de dados deve estar no `localhost:27017`
