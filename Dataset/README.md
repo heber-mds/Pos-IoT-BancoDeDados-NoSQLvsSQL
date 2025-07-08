@@ -108,24 +108,32 @@ Resultado esperado:
 4. Crie uma tabela com base nas colunas do CSV (exemplo simplificado):
 
 ```sql
-CREATE TABLE caso_full (
-    city TEXT,
-    city_ibge_code BIGINT,
-    date TEXT,
-    epidemiological_week INT,
-    estimated_population BIGINT,
-    estimated_population_2019 BIGINT,
-    is_last TEXT,
-    is_repeated TEXT,
-    last_available_confirmed INT,
-    last_available_confirmed_per_100k_inhabitants REAL,
-    last_available_date TEXT,
-    last_available_death_rate REAL,
-    last_available_deaths INT,
-    order_for_place INT,
-    place_type TEXT,
-    state TEXT
-);
+CREATE TABLE IF NOT EXISTS public.caso_covid
+(
+    city text COLLATE pg_catalog."default",
+    city_ibge_code text COLLATE pg_catalog."default",
+    date text COLLATE pg_catalog."default",
+    epidemiological_week text COLLATE pg_catalog."default",
+    estimated_population integer,
+    estimated_population_2019 integer,
+    is_last boolean,
+    is_repeated boolean,
+    last_available_confirmed integer,
+    last_available_confirmed_per_100k_inhabitants double precision,
+    last_available_date text COLLATE pg_catalog."default",
+    last_available_death_rate double precision,
+    last_available_deaths integer,
+    order_for_place integer,
+    place_type text COLLATE pg_catalog."default",
+    state character(2) COLLATE pg_catalog."default",
+    new_confirmed integer,
+    new_deaths integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.caso_covid
+    OWNER to postgres;
 ```
 
 5. Vá em **Tools > Import/Export**.
